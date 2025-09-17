@@ -68,6 +68,9 @@ Due to memory and CPU constraints, training was performed in **8 chunks** of 2,0
 
 ---
 
+✨ **The Magic of Chunking**:  
+Instead of trying to load and train all 20,000 images at once (which crashed the CPU), the dataset was divided into smaller staged chunks. Each chunk fine-tuned the model further, allowing the UNet to reach **90%+ Dice score** on a limited compute setup — turning a laptop CPU into a workable medical AI training pipeline!
+
 ## Sample Predictions
 
 Visual results show CT image, ground truth mask, and predicted mask side-by-side.
