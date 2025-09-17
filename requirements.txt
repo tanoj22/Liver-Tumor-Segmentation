@@ -1,0 +1,22 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# Image Processing
+opencv-python
+Pillow
+
+# Jupyter
+jupyter
+notebook
+
+# Visualization
+tqdm
